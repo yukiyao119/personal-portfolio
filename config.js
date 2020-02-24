@@ -1,35 +1,47 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Stylish', // <title>
-  manifestName: 'Stylish',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Xue Yao(Yuki)', // <title>
+  manifestName: 'Xue Yao(Yuki)',
+  manifestShortName: 'XueYaoYuki', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-stylish/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  manifestIcon: 'src/images/icon.png',
+  pathPrefix: `/xueyaoyuki/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: "Hi, I'm Yuki",
+  subHeading: 'Full-stack Web Developer. I enjoy designing and building things.',
 
   // social
   socialLinks: [
     {
       icon: 'icon-social-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/yukiyao119',
     },
     {
       icon: 'icon-social-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/xueyaoyuki',
     },
     {
-      icon: 'icon-social-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'icon-social-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/yukixueyao',
+    },
+    {
+      icon: 'icon-notebook',
+      name: 'Medium',
+      url: 'https://medium.com/@yukiyao',
+    },
+    {
+      icon: 'icon-social-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/ukey.yao/',
+    },
+    {
+      icon: 'icon-envelope',
+      name: 'Email',
+      url: 'mailto: yukiyao119@gmail.com',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
 };

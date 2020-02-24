@@ -1,9 +1,10 @@
 import React from 'react';
 import config from '../../config';
+import './bg.css'
 
 export default function Footer() {
   return (
-    <footer className="footer text-center">
+    <footer className="footer text-center bg-end">
       <div className="container">
         <ul className="list-inline mb-5">
           {config.socialLinks.map(social => {
@@ -21,7 +22,8 @@ export default function Footer() {
           })}
         </ul>
         <p className="text-muted small mb-0">
-          Copyright &copy; Gatsby Starter Stylish
+        Inspired by Gatsby Starter Stylish <br/>
+        Coded by Xue Yao(Yuki)
         </p>
       </div>
     </footer>

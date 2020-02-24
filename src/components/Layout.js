@@ -25,7 +25,7 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Stylish' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'keywords', content: 'web development' },
               ]}
             >
               <html lang="en" />

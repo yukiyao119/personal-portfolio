@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Github",
+      "icon": "github",
+      "type": "social-media",
+      "url": "https://github.com/yukiyao119"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "type": "social-media",
+      "url": "https://twitter.com/xueyaoyuki"
+    },
+    {
+      "name": "Medium",
+      "icon": "medium",
+      "type": "social-media",
+      "url": "https://medium.com/@yukiyao"
+    },
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "type": "social-media",
+      "url": "https://www.instagram.com/ukey.yao"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "type": "social-media",
+      "url": "https://www.linkedin.com/in/yukixueyao"
+    },
+    {
+      "name": "Email",
+      "icon": "envelope",
+      "type": "email",
+      "url": "yukiyao119@gmail.com"
+    }
+  ]

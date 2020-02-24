@@ -19,7 +19,27 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `project`,
+        path: `${__dirname}/src/data/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: `images`,
+      },
+    },
+    // {
+    //   resolve: `gatsby-transformer-sharp`
+    // },
+    `gatsby-transformer-json`,
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
   ],
 };
