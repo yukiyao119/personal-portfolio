@@ -22,7 +22,6 @@ export default function Footer() {
           })}
         </ul>
         <p className="text-muted small mb-0">
-        Inspired by Gatsby Starter Stylish <br/>
         Coded by Xue Yao(Yuki)
         </p>
       </div>
