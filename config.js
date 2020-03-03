@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Xue Yao(Yuki)', // <title>
-  manifestName: 'Xue Yao(Yuki)',
-  manifestShortName: 'XueYaoYuki', // max 12 characters
+  siteTitle: 'Yuki(Xue) Yao', // <title>
+  manifestName: 'Yuki(Xue) Yao',
+  manifestShortName: 'YukiXueYao', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
@@ -44,4 +44,12 @@ module.exports = {
       url: 'mailto: yukiyao119@gmail.com',
     },
   ],
+
+  // tech
+  techIcons:[
+    {icon:'icon-book'}
+  ]
+
+
+
 };
