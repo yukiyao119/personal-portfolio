@@ -15,22 +15,31 @@ const Project = ({ ProjectImgs }) => {
     console.log("theImage", theImage, "theImageSizes", theImageSizes);
     
     return (
-      <div key={project.id}>
-          <div style={{ width: '300px', margin: '20px'}}>
-              <Img
-                title={project.name}
-                alt="Screenshot of Project"
-                sizes={theImageSizes}
-              />
-            <a className="portfolio-item" href={project.url}>
-              <span className="caption">
-                <span className="caption-content">
-                <h3>{project.name}</h3>
-                <p>{project.description}</p>
-                </span>
-              </span>
-            </a>
+      <div className="portfolio-container">
+        <Img className="portfolio-img"
+          title={project.name}
+          alt="Screenshot of Project"
+          sizes={theImageSizes}
+        />
+        <div className="portfolio-item">
+          <div>
+            <h3>{project.name}</h3>
+            <p>{project.description}</p>
+            <p>{project.tech}</p>
+            <p>{project.other}</p>
           </div>
+          <a className="a-container" href={project.url}>
+            <span>
+              Check out web application
+            </span>
+          </a>
+          <a className="a-container" href={project.github}>
+            <span>
+              Check out Github repository
+            </span>
+
+          </a>
+        </div>
       </div>
     )
   })
@@ -42,10 +51,7 @@ const Project = ({ ProjectImgs }) => {
           <h3 className="text-secondary mb-0">Portfolio</h3>
           <h2 className="mb-5">Recent Projects</h2>
         </div>
-        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
-          {projectItems}
-        </div>
-        
+        {projectItems}
       </div>
     </section>
   )

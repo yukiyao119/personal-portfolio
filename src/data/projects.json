@@ -2,22 +2,34 @@
   {
     "name": "Resources Xchange",
     "type": "full-stack",
-    "description": "It is a platform that introduces a new way of learning skills. 🌎\nYou can find skills that you are interested in and request a learning exchange with your current skills.\n💥Built with RoR API, React, Redux, Google Map Javascript API, JWT.\nDemo account | username: yukiyao, password: 111",
+    "description": "Resources Xchange is a platform that introduces a new way of learning skills. You can find skills that you are interested in and request a learning exchange with your current skills.",
+    "tech": "Built with Ruby on Rails API, React, Redux, Google Map Javascript API, JWT.",
+    "other": "Demo account | username: yukiyao, password: 111",
     "img": "ResourcesXchangePreview.png",
-    "url": "https://resourcesxchange.netlify.com"
+    "gif": "RXbrowse.gif",
+    "url": "https://resourcesxchange.netlify.com",
+    "github": "https://github.com/yukiyao119"
   },
   {
     "name": "Project Planner",
     "type": "full-stack",
-    "description": "It is a project management tool that allows you to track your current projects.\nIt allows you to browse, search, sort, create, edit current projects. As well as view the details, add and delete notes.\nBuilt with RoR API, React, Semantic-UI, CSS.",
+    "description": "Project Planner is a tool that allows you to track your current projects.It allows you to browse, search, sort, create, edit current projects. As well as view the details, add and delete notes.",
+    "tech": "Built with RoR API, React, Semantic-UI, CSS.",
+    "other": "",
     "img": "ProjectPlanner.png",
-    "url": "https://yourprojectplanner.netlify.com"
+    "gif": "pphome.gif",
+    "url": "https://yourprojectplanner.netlify.com",
+    "github": "https://github.com/yukiyao119"
   },
   {
     "name": "Weather Converter",
     "type": "front-end",
-    "description": "This is a website that shows Portland Maine and its real-time weather.\nYou can browse the photos and convert the degrees from Farenheit to Celcius.\nBuilt with HTML, CSS,Javascript, jQuery, OpenWeather API.",
+    "description": "This is a website that shows Portland Maine and its real-time weather. You can browse the photos and convert the degrees from Farenheit to Celcius.",
+    "tech": "Built with HTML, CSS, Javascript, jQuery, OpenWeather API.",
+    "other": "",
     "img": "WeatherConverterPreview.png",
-    "url": "https://yukiyao119.github.io/"
+    "gif": "WeatherConverter.gif",
+    "url": "https://yukiyao119.github.io/",
+    "github": "https://github.com/yukiyao119"
   }
 ]

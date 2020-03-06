@@ -67,7 +67,7 @@ query allImgsQuery {
         relativePath
         name
         childImageSharp {
-          sizes(maxWidth: 320) {
+          sizes (maxWidth: 480) {
             ...GatsbyImageSharpSizes
           }
         }
