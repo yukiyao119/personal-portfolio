@@ -17,7 +17,7 @@ const About = ({ profileImg }) => {
               sizes={profileImg.sizes}
               />
             <h2>
-              Xue Yao(Yuki)
+              Yuki(Xue) Yao
             </h2>
             <p className="lead mb-5" style={{width: '80%', margin: '0 auto'}}>
             Full-stack web developer with experience in JavaScript, React, Redux, HTML, CSS, Ruby on Rails, SQL and a background in engineering. <br/> After six years of work from startups to Fortune 500 such as Industrial and Commercial Bank of China, Danone, and Bain & Company, I discovered web development while I was working for E-commerce companies as operations and business development. Currently I live in New York, eligible and authorized to work in the U.S.
