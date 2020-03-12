@@ -8,7 +8,7 @@
     "img": "ResourcesXchangePreview.png",
     "gif": "RXbrowse.gif",
     "url": "https://resourcesxchange.netlify.com",
-    "github": "https://github.com/yukiyao119"
+    "github": "https://github.com/yukiyao119/resources-exchange-frontend"
   },
   {
     "name": "Project Planner",
@@ -19,10 +19,10 @@
     "img": "ProjectPlanner.png",
     "gif": "pphome.gif",
     "url": "https://yourprojectplanner.netlify.com",
-    "github": "https://github.com/yukiyao119"
+    "github": "https://github.com/yukiyao119/project-planner-frontend"
   },
   {
-    "name": "Weather Converter",
+    "name": "Portland ME Weather",
     "type": "front-end",
     "description": "This is a website that shows Portland Maine and its real-time weather. You can browse the photos and convert the degrees from Farenheit to Celcius.",
     "tech": "Built with HTML, CSS, Javascript, jQuery, OpenWeather API.",
@@ -30,6 +30,6 @@
     "img": "WeatherConverterPreview.png",
     "gif": "WeatherConverter.gif",
     "url": "https://yukiyao119.github.io/",
-    "github": "https://github.com/yukiyao119"
+    "github": "https://github.com/yukiyao119/yukiyao119.github.io"
   }
 ]
