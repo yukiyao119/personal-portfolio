@@ -1,9 +1,9 @@
 [  
   {
     "name": "Resources Xchange",
-    "type": "full-stack",
+    "type": "Full Stack",
     "description": "Resources Xchange is a platform that introduces a new way of learning skills. You can find skills that you are interested in and request a learning exchange with your current skills.",
-    "tech": "Built with Ruby on Rails API, React, Redux, Google Map Javascript API, JWT.",
+    "tech": "Built with Ruby on Rails, React, Redux, Google Map Javascript API, JWT.",
     "other": "Demo account | username: yukiyao, password: 111",
     "img": "ResourcesXchangePreview.png",
     "gif": "RXbrowse.gif",
@@ -12,7 +12,7 @@
   },
   {
     "name": "Project Planner",
-    "type": "full-stack",
+    "type": "Full Stack",
     "description": "Project Planner is a tool that allows you to track your current projects.It allows you to browse, search, sort, create, edit current projects. As well as view the details, add and delete notes.",
     "tech": "Built with RoR API, React, Semantic-UI, CSS.",
     "other": "",
@@ -23,8 +23,8 @@
   },
   {
     "name": "Portland ME Weather",
-    "type": "front-end",
-    "description": "This is a website that shows Portland Maine and its real-time weather. You can browse the photos and convert the degrees from Farenheit to Celcius.",
+    "type": "Frontend",
+    "description": "Real time Portland Maine weather display and conversion.",
     "tech": "Built with HTML, CSS, Javascript, jQuery, OpenWeather API.",
     "other": "",
     "img": "WeatherConverterPreview.png",

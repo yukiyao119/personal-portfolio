@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/images/icon.png',
   pathPrefix: `/xueyaoyuki/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: "Hi, I'm Yuki",
-  subHeading: 'Full-stack Web Developer. I enjoy designing and building things.',
+  heading: "Hi, I'm Yuki!",
+  subHeading: 'Former Account Manager turned Web Developer with an eye for design',
 
   // social
   socialLinks: [
