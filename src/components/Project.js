@@ -28,12 +28,12 @@ const Project = ({ ProjectImgs }) => {
             <p>{project.tech}</p>
             <p>{project.other}</p>
           </div>
-          <a className="a-container" href={project.url}>
+          <a className="a-container" href={project.url} target="_blank">
             <span>
               Check out web application
             </span>
           </a>
-          <a className="a-container" href={project.github}>
+          <a className="a-container" href={project.github} target="_blank">
             <span>
               Check out Github repository
             </span>
