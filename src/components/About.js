@@ -20,10 +20,12 @@ const About = ({ profileImg }) => {
               Yuki(Xue) Yao
             </h2>
             <p className="lead mb-5" style={{width: '80%', margin: '0 auto'}}>
-            After six years of diverse work from startups to Fortune 500, <br/>
-            I discovered web development while I was working for Internet companies. I love that coding can bring ideas to life and I enjoy every step of designing and building things!<br/><br/>
+            I'm a Full Stack Developer with strong background in Ecommerce and Internet industries. Former Optimization and Account Manager utilizing vast technology knowledge <br/>
+            to provide technical support and optimal solutions to clients.<br/><br/>
+            I believe that technology can solve real life problem. Every step of designing and building things is truly exciting!<br/><br/>
             <strong>Programming Language: </strong>JavaScript, Ruby, HTML, CSS <br/>
-            <strong>Frameworks and Libraries: </strong>React, Ruby on Rails, Redux, jQuery, Semantic UI <br/>
+            <strong>Frameworks and Libraries: </strong>React, Ruby on Rails, Redux, jQuery, Gatsby, Semantic UI <br/>
+            <strong>Database Management System: </strong>PostgreSQL<br/>
             <strong>Design: </strong>Adobe Photoshop, Sketch<br/>
             <strong>Language: </strong>English - fluent, Mandarin - native <br/>
             </p>

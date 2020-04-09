@@ -27,6 +27,7 @@ const Project = ({ ProjectImgs }) => {
             <p>{project.description}</p>
             <p>{project.tech}</p>
             <p>{project.other}</p>
+            <p><a href="https://link.medium.com/OLFfrmCjx5" target="_blank">{project.post}</a></p>
           </div>
           <a className="a-container" href={project.url} target="_blank">
             <span>

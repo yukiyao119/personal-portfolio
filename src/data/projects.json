@@ -5,6 +5,7 @@
     "description": "Resources Xchange is a platform that introduces a new way of learning skills. You can find skills that you are interested in and request a learning exchange with your current skills.",
     "tech": "Built with Ruby on Rails, React, Redux, Google Map Javascript API, JWT.",
     "other": "Demo account | username: yukiyao, password: 111",
+    "post": "",
     "img": "ResourcesXchangePreview.png",
     "gif": "RXbrowse.gif",
     "url": "https://resourcesxchange.netlify.com",
@@ -16,6 +17,7 @@
     "description": "Project Planner is a tool that allows you to track your current projects.It allows you to browse, search, sort, create, edit current projects. As well as view the details, add and delete notes.",
     "tech": "Built with RoR API, React, Semantic-UI, CSS.",
     "other": "",
+    "post": "",
     "img": "ProjectPlanner.png",
     "gif": "pphome.gif",
     "url": "https://betterthantrello.netlify.com",
@@ -27,9 +29,20 @@
     "description": "Real time Portland Maine weather display and conversion.",
     "tech": "Built with HTML, CSS, Javascript, jQuery, OpenWeather API.",
     "other": "",
+    "post": "",
     "img": "WeatherConverterPreview.png",
     "gif": "WeatherConverter.gif",
-    "url": "https://yukiyao119.github.io/",
-    "github": "https://github.com/yukiyao119/yukiyao119.github.io"
+    "url": "https://yukiyao119.github.io/WeatherDisplay",
+    "github": "https://github.com/yukiyao119/WeatherDisplay"
+  },{
+    "name": "Personal Portfolio",
+    "type": "Frontend",
+    "description": "Wonder How I built this a blazing fast online portfolio? Gatsby! Check out my repo with details.",
+    "other": "",
+    "post":"Or, read my recent post about it.",
+    "img": "portfolioPreview.png",
+    "gif": "",
+    "url": "https://yukiyao.com",
+    "github": "https://github.com/yukiyao119/personal-portfolio"
   }
 ]
