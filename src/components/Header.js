@@ -8,9 +8,9 @@ export default class Header extends Component {
       openMenu: false,
     };
   }
-  // toggleMenu = value => {
-  //   this.setState({ openMenu: value });
-  // };
+  toggleMenu = value => {
+    this.setState({ openMenu: value });
+  };
 
   render() {
     const { openMenu } = this.state;
@@ -19,7 +19,7 @@ export default class Header extends Component {
         <a
           onClick={_ => this.toggleMenu(!openMenu)}
           className={`menu-toggle rounded ${openMenu ? 'active' : ''}`}
-          href="/#"
+          // href="/#"
         >
           {openMenu ? (
             <i className="fas fa-times" />
@@ -32,7 +32,7 @@ export default class Header extends Component {
             <li className="sidebar-brand">
               <a href="#page-top">{config.siteTitle}</a>
             </li>
-            {/* <li className="sidebar-nav-item">
+            <li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
                 type="class"
@@ -40,7 +40,7 @@ export default class Header extends Component {
               >
                 <a href="#page-top">Home</a>
               </Scroll>
-            </li> */}
+            </li>
             <li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}
@@ -50,15 +50,6 @@ export default class Header extends Component {
                 <a href="#about">About</a>
               </Scroll>
             </li>
-            {/* <li className="sidebar-nav-item">
-              <Scroll
-                onClick={_ => this.toggleMenu(!openMenu)}
-                type="id"
-                element="services"
-              >
-                <a href="#services">Services</a>
-              </Scroll>
-            </li> */}
             <li className="sidebar-nav-item">
               <Scroll
                 onClick={_ => this.toggleMenu(!openMenu)}

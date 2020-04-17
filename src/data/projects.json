@@ -37,9 +37,9 @@
   },{
     "name": "Personal Portfolio",
     "type": "Frontend",
-    "description": "Wonder How I built this a blazing fast online portfolio? Gatsby! Check out my repo with details.",
+    "description": "Wonder How I built this a blazing fast online portfolio? Gatsby! Check out my Github for details.",
     "other": "",
-    "post":"Or, read my recent post about it.",
+    "post":"Read my recent post about it.",
     "img": "portfolioPreview.png",
     "gif": "",
     "url": "https://yukiyao.com",

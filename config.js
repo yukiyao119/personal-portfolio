@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/images/icon.png',
   pathPrefix: `/xueyaoyuki/`, // This path is subpath of your hosting https://domain/portfolio
   heading: "Hi, I'm Yuki!",
-  subHeading: 'Former Account Manager turned Web Developer with an eye for design',
+  subHeading: 'Full Stack Developer with an eye for design.',
 
   // social
   socialLinks: [
