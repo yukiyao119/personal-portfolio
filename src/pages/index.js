@@ -19,9 +19,9 @@ const IndexPage = ({ data }) => {
 
   return (
   <Layout>
-    {/* <Helmet>
-      <meta property="og:image" content={ data.site.siteMetadata.image } />
-    </Helmet> */}
+    <Helmet>
+      <meta name="og:image" content={ data.site.siteMetadata.image } />
+    </Helmet>
     {/* <Header /> */}
     <header className="masthead d-flex">
       <div className="container text-center my-auto">
