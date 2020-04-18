@@ -26,10 +26,10 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Yuki Yao' },
-                { name: 'keywords', content: 'Yuki Yao Developer' },
-                { name: 'og:image', content: data.site.siteMetadata.image },
+                { name: 'keywords', content: 'Yuki Yao Developer' }
               ]}
             >
+              <meta property="og:image" content={`${data.site.siteMetadata.image}`} />
               <html lang="en" />
             </Helmet>
             <div className={'page-top'}>{children}</div>

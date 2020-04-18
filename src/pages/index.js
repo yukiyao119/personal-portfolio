@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -18,6 +19,9 @@ const IndexPage = ({ data }) => {
 
   return (
   <Layout>
+    {/* <Helmet>
+
+    </Helmet> */}
     {/* <Header /> */}
     <header className="masthead d-flex">
       <div className="container text-center my-auto">
