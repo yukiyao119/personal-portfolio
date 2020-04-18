@@ -6,13 +6,13 @@ import "./bg.css"
 
 const Project = ({ ProjectImgs }) => {
 
-  console.log("projectList is json", projectList, "ProjectImgs is arr of node", ProjectImgs, "typeof ProjectImgs", typeof(ProjectImgs))
+  // console.log("projectList is json", projectList, "ProjectImgs is arr of node", ProjectImgs, "typeof ProjectImgs", typeof(ProjectImgs))
 
   const projectItems = projectList.map(project => {
     const theImage = ProjectImgs.find( image => { 
       return image.node.relativePath === `projects/${project.img}`} )
     const theImageSizes = theImage.node.childImageSharp.sizes
-    console.log("theImage", theImage, "theImageSizes", theImageSizes);
+    // console.log("theImage", theImage, "theImageSizes", theImageSizes);
     
     return (
       <div className="portfolio-container">

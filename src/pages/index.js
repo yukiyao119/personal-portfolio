@@ -15,12 +15,15 @@ import Project from '../components/Project'
 const IndexPage = ({ data }) => {
   console.log(data)
   const { edges: projectImgData } = data.ProjectImgs;
-  console.log(projectImgData)
+  // console.log(projectImgData)
+  // const { edges: thumbnailImgData } = data.thumbnailImg;
+  console.log(data.thumbnailImg.sizes.src);
+  
 
   return (
   <Layout>
     <Helmet>
-      <meta name="og:image" content={ data.site.siteMetadata.image } />
+      <meta property="og:image" content={ data.thumbnailImg.sizes.src } />
     </Helmet>
     {/* <Header /> */}
     <header className="masthead d-flex">
@@ -57,6 +60,13 @@ query allImgsQuery {
     }
   }
 
+  thumbnailImg: imageSharp(sizes: {srcSet: {regex: "/thumbnail/"}}) {
+    sizes {
+      sizes
+      src
+    }
+  }
+
   profileImg: imageSharp(sizes: {srcSet: {regex: "/Yukiyao/"}}) {
     sizes(maxWidth: 300, maxHeight: 300) {
       ...GatsbyImageSharpSizes
@@ -78,6 +88,9 @@ query allImgsQuery {
         }
       }
     }
+
+  
+
   }
 
 }

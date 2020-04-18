@@ -18,6 +18,14 @@ class Layout extends Component {
                 image
               }
             }
+
+            thumbnailImg: imageSharp(sizes: {srcSet: {regex: "/thumbnail/"}}) {
+              sizes {
+                sizes
+                src
+              }
+            }
+            
           }
         `}
         render={data => (
