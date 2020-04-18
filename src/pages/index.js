@@ -49,6 +49,7 @@ query allImgsQuery {
   site {
     siteMetadata {
       title
+      image
     }
   }
 
