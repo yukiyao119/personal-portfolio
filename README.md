@@ -8,7 +8,8 @@ My first personal portfolio built with Gatsby.
 ## Site
 https://yukiyao.com
 
-![BrowsePage](./src/assets/images/Portfolio.gif)
+## Blog
+https://link.medium.com/OLFfrmCjx5
 
 
 
