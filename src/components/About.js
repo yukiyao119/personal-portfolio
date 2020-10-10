@@ -24,7 +24,7 @@ const About = ({ profileImg }) => {
             Through years of experience at tech startups and Fortune 500, 
             I utilized vast knowledge to analyze, communicate, improve, and resolve product and operation issues.<br/><br/>
             <strong>Programming Language: </strong>JavaScript, Ruby, HTML, CSS <br/>
-            <strong>Frameworks and Libraries: </strong>React, Ruby on Rails, Redux, jQuery, Gatsby, Semantic UI <br/>
+            <strong>Frameworks and Libraries: </strong>React, Angular, Ruby on Rails, Redux, Gatsby, Semantic UI <br/>
             <strong>Database Management System: </strong>PostgreSQL<br/>
             <strong>Design: </strong>Adobe Photoshop, Sketch<br/>
             <strong>Language: </strong>English - fluent, Mandarin - native <br/>
