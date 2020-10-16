@@ -20,7 +20,7 @@ const About = ({ profileImg }) => {
               Yuki(Xue) Yao
             </h2>
             <p className="lead mb-5" style={{width: '80%', margin: '0 auto'}}>
-            Full Stack Developer with a strong background in E-commerce and SaaS, and a degree in engineering. Years of experience at tech startups, with a focus on analyzing and resolving product and operation issues.<br/><br/>
+            <p>Full Stack Developer with a strong background in E-commerce and SaaS, and a degree in engineering. Years of experience at tech startups, with a focus on analyzing and resolving product and operation issues.</p>
             <strong>Programming Language: </strong>JavaScript, Ruby, HTML, CSS <br/>
             <strong>Frameworks and Libraries: </strong>React, Angular, Ruby on Rails, Redux, Gatsby, Semantic UI <br/>
             <strong>Database Management System: </strong>PostgreSQL<br/>
