@@ -14,7 +14,7 @@
   {
     "name": "Project Planner",
     "type": "Full Stack",
-    "description": "Project Planner is a tool that allows you to track your current projects.It allows you to browse, search, sort, create, edit current projects. As well as view the details, add and delete notes.",
+    "description": "Project Planner is a tool that allows you to track, browse, search, sort, create, and edit current projects. You can also view the details, add and delete notes.",
     "tech": "Built with RoR API, React, Semantic-UI, CSS.",
     "other": "",
     "post": "",
@@ -26,7 +26,7 @@
   {
     "name": "Portland ME Weather",
     "type": "Frontend",
-    "description": "Real time Portland Maine weather display and conversion.",
+    "description": "Real time Portland, Maine weather display and conversion.",
     "tech": "Built with HTML, CSS, Javascript, jQuery, OpenWeather API.",
     "other": "",
     "post": "",
@@ -37,7 +37,7 @@
   },{
     "name": "Personal Portfolio",
     "type": "Frontend",
-    "description": "Wonder How I built this a blazing fast online portfolio? Gatsby! Check out my Github for details.",
+    "description": "Wonder how I built this blazing fast online portfolio? Gatsby! Check out my Github for details.",
     "other": "",
     "post":"Read my recent post about it.",
     "img": "portfolioPreview.png",
