@@ -33,11 +33,6 @@ module.exports = {
       name: 'Medium',
       url: 'https://medium.com/@yukiyao',
     },
-    // {
-    //   icon: 'icon-social-instagram',
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/ukey.yao/',
-    // },
     {
       icon: 'icon-envelope',
       name: 'Email',
